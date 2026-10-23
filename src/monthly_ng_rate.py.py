@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # ==========================
 
 DATA_FILE = Path(
-    r"C:\\Users\\4096834\\Desktop\\作業\\ポートフォリオ用\\検査工程データ分析ツール\\data\\inspection_results_all.csv"
+    r"data\\inspection_results_all.csv"
 )
 
 df = pd.read_csv(DATA_FILE)
@@ -65,7 +65,7 @@ plt.tight_layout()
 # ==========================
 
 output_file = Path(
-    r"C:\\Users\\4096834\\Desktop\\作業\\ポートフォリオ用\\検査工程データ分析ツール\\graphs\\monthly_ng_rate.png"
+    r"graphs\\monthly_ng_rate.png"
 )
 
 output_file.parent.mkdir(
