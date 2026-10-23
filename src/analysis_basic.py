@@ -3,7 +3,7 @@ import pandas as pd
 
 # ファイルパス
 DATA_FILE = Path(
-    r"C:\\Users\\4096834\\Desktop\\作業\\ポートフォリオ用\\検査工程データ分析ツール\\data\\inspection_results_all.csv"
+    r"data\\inspection_results_all.csv"
 )
 
 # CSV読込
